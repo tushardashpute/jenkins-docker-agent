@@ -9,6 +9,7 @@ Steps :
 4. Install sonarqube server
     - Generate sonar token
     - Create webhook for jenkins
+5. Create jenkins job using jenkinsfile.
 
 **1. Install Jenkins and do initital setup**
 
