@@ -9,8 +9,6 @@ Steps :
 4. Install sonarqube server
     - Generate sonar token
     - Create webhook for jenkins
-5. Add the sonar token as a secret string and Add SonarQube servers with in jenkins.
-
 
 **1. Install Jenkins and do initital setup**
 
@@ -72,6 +70,7 @@ Steps :
 
 ![image](https://user-images.githubusercontent.com/68885738/90910714-689f8980-e3f5-11ea-889c-68e63b8302ce.png)
 
+        Name: sonar-scanner
+        Server URL: http://54.210.37.165:9000/
+        Server authentication token: (Create secret text with authentication token)
 
-
-5. Add the sonar token as a secret string and Add SonarQube servers with in jenkins.
